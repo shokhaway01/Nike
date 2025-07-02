@@ -1,19 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Footer from "./Sections/Footer"
-import PupularProducts from "./Sections/PupularProducts"
-import Hero from "./Sections/Hero"
-import CustomerReview from "./Sections/CustomerReview"
-import Services from "./Sections/Services"
-import SpecialOffer from "./Sections/SpecialOffer"
-import Subscribe from "./Sections/Subscribe"
-import SuperQuality from "./Sections/SuperQuality"
+import { Hero, PupularProducts,SuperQuality, Services, SpecialOffer, CustomerReview, Subscribe, Footer } from './Sections/index.js'
+
+import Nav from './Components/Nav.jsx'
 
 const App = () => {
 
   return (
     <main className='relative'>
-      Nav
+      <Nav />
       <section className='xl:padding-1 wide:padding-r padding-b'>
         <Hero/>
       </section>
