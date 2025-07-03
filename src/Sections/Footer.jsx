@@ -1,6 +1,7 @@
 import React from 'react'
 import { footerLogo } from '../assets/images'
 import { footerLinks, socialMedia } from '../constants'
+import { copyrightSign } from '../assets/icons'
 
 const Footer = () => {
   return (
@@ -32,10 +33,12 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm: items-center">
+        <div className="flex justify-between text-white-400 w-full mt-24 max-sm:flex-col max-sm: items-center">
           <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
-
+            <img src={copyrightSign} alt="copiright" width={20} height={20} className='rounded-full m-0'/>
+            <p className='font-montserrat cursor-pointer'>Copiright all rights deserved by Shokhaway</p>
           </div>
+            <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
         </div>
       </div>
     </footer>
