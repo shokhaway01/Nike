@@ -73,15 +73,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Karimov Shohjahon',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Only one word to describe my experience: amazing! The product quality is top-notch and the service was exceptional. I felt truly valued as a customer and will definitely return for more."
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Shokha Way',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "I've never used clothes like these before! The comfort and style exceeded all my expectations, making every moment feel special."
     }
 ];
 
