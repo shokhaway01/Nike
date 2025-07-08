@@ -50,8 +50,8 @@ const Hero = () => {
           className="object-contain relative max-sm:p-6"
         />
 
-        <div className="flex  sm:gap-6 max-sm:-bottom -[25%] gap-4 absolute -bottom-[10%] sm:left-[10%] max-sm:px-4">
-          {shoes.map((shoe, index) => (
+        <div className="flex sm:gap-6 max-sm:-bottom -[25%] gap-4 absolute -bottom-[10%] sm:left-[10%] max-sm:px-4">
+          {shoes.map((shoe , index) => (
             <div className="cursor-pointer" key={index}>
               <Shoe imgUrl={shoe} changeBigShoeImage={(shoe) => {setbigShoeImg(shoe)}} bigShoeImg={bigShoeImg} />
             </div>
